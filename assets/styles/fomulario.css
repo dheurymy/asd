@@ -161,6 +161,7 @@ form > div > select {
    border: 1px solid var(--corBordas);
    border-radius: 0.3rem;
    padding: 3%;
+   background-color: var(--corFundo);
 }
 
 form > div > select::placeholder {
