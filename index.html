@@ -4,21 +4,58 @@
       <meta charset="UTF-8">
       <meta name="viewport"
          content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Nome do Jogo</title>
       <link rel="stylesheet" href="assets/styles/reset.css">
       <link rel="stylesheet" href="assets/styles/fomulario.css">
       <link rel="stylesheet" href="assets/styles/footer.css">
+      <link rel="stylesheet" href="assets/styles/style.css">
+      <link rel="stylesheet" href="assets/styles/media-queries.css">
    </head>
    <body>
 
       <header>
-
-      </header>
+         <nav>
+             <div class="hamburger">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="menuIcon" viewBox="0 0 24 24" fill="none">
+                     <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                     <path d="M4 12L20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                     <path d="M4 19L20 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                 </svg>
+             </div>
+             <a href="#" class="logo">Logo</a>
+             <div class="menu">
+                 <ul class="navlinks">
+                     <li><a href="#ancora01" class="navlinks__link link-active active">Para que serve?</a></li>
+                     <li><a href="#ancora02" class="navlinks__link">Como funciona?</a></li>
+                     <li><a href="#ancora04" class="navlinks__link">Idealizadores</a></li>
+                 </ul>
+                 <svg xmlns="http://www.w3.org/2000/svg" class="closeIcon" id="closeMenu" viewBox="0 0 24 24" fill="none">
+                     <path d="M19.0005 4.99988L5.00045 18.9999M5.00045 4.99988L19.0005 18.9999" stroke="currentColor" stroke-width="1.5"
+                         stroke-linecap="round" stroke-linejoin="round" />
+                 </svg>
+             </div>
+             <a href="#" class="game__start__button">Jogar</a>
+         </nav>
+     </header>
+      
 
      
 
       <main class="container">
-         <div class="formulario">
+         <div class="introduction" id="ancora01">
+            <section class="introduction__content">
+                <h4 class="introduction__content__text">Inova Maranhão apresenta...</h4>
+                <h2 class="introduction__content__title">NOME DO JOGO!</h2>
+                <p class="introduction__content__paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada egestas enim. Donec mattis erat eget purus venenatis aliquet non non arcu. Proin sit amet elit elit. Curabitur lacus lectus.
+                </p>
+                <a href="#ancora03" class="download__game__button">Fazer cadastro no jogo</a>
+            </section>
+            <img src="./assets/images/image.png" alt="Personagem principal do jogo..">
+        </div>
+
+         <div class="formulario" id="ancora03">
             <div class="formularioHeader">
                <h1>Pronto para jogar?</h1>
                <p class="legendaFormulario">
@@ -120,8 +157,8 @@
          </div>
       </main>
 
-      <footer>
-         <div class="content">
+      <footer id="ancora04">
+         <div class="content" >
              <section class="section">
                  <h2>Desenvolvido Por:</h2>
                  <div class="contact-list">
