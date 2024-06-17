@@ -219,11 +219,11 @@ form > div > select::placeholder {
 
 .botaoSwitch {
    border-color: var(--corBordaAlerta);
-   background-color: var(--corAlerta);
+   background-color: var(--corFundo);
 }
 
 .botaoSwitch > a {
-   color: var(--corFundo);
+   color: var(--corAlerta);
 }
 
 .botaoSubmit {
@@ -238,8 +238,10 @@ form > div > select::placeholder {
 }
 
 .botaoSwitch:hover,
-.botaoSwitch:focus {
+.botaoSwitch:focus,
+.botaoSwitch > a:hover {
    background-color: var(--corHover);
+   color: var(--corFundo);
 }
 
 /* Media queries para telas de tablets */

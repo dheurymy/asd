@@ -38,7 +38,7 @@
 }
 
 .midContentLegend {
-    font-size: 1rem;
+    font-size: 0.8em;
     font-weight: 400;
     text-align: center;
 
@@ -91,7 +91,7 @@
 }
 
 .cardLegend {
-    font-size: 2.5vh;
+    font-size: 0.8em;
     font-weight: 400;
 
     text-align: left;
