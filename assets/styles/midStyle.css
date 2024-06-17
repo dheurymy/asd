@@ -16,6 +16,7 @@
 .midContent {
     width: 100%;
     height: auto;
+    min-height: 100vh;
 
     font-family: "Noto Sans", sans-serif;
     background-color: var(--corFundoMid);
